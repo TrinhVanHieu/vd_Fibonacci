@@ -96,7 +96,7 @@ void main(void)
 	init_interrupt();
 	int f1 = 0;
 	int f2 = 1;
-	int n = 0;*/
+	int n = 0;
   while(1)
   {
 	if (state_led)
