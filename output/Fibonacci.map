@@ -112,9 +112,9 @@ OUTPUT(./output/Fibonacci.elf elf32-littlearm)
 .debug_line     0x00000000       0xdc
  .debug_line    0x00000000       0xdc ./output/main.o
 
-.debug_str      0x00000000      0x1b5
- .debug_str     0x00000000      0x1b5 ./output/main.o
-                                0x1c2 (size before relaxing)
+.debug_str      0x00000000      0x1b8
+ .debug_str     0x00000000      0x1b8 ./output/main.o
+                                0x1c5 (size before relaxing)
 
 .comment        0x00000000       0x7e
  .comment       0x00000000       0x7e ./output/main.o

@@ -44,6 +44,7 @@ void init_pin (void)
     tmpreg = tmpreg | (GPIO_MODE_INPUT << 0); 
     write_reg(GPIOA_MODER, tmpreg);
 }
+
 /*Init EXTI*/
 void init_interrupt (void)
 {
@@ -91,10 +92,11 @@ void main(void)
 	enable_clock();
 	/*init_pin*/
 	init_pin();
+	
 	init_interrupt();
 	int f1 = 0;
 	int f2 = 1;
-	int n = 0;
+	int n = 0;*/
   while(1)
   {
 	if (state_led)

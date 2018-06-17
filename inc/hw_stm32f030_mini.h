@@ -40,6 +40,7 @@
 
 /*User button B1_User - PA0*/
 #define PA0_PIN 			0
+
 /*EXTI*/
 #define BASE_ADDRESS_EXTI	0x40010400u
 #define	EXTI_IMR			(BASE_ADDRESS_EXTI + 0x00u)
